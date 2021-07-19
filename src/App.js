@@ -60,11 +60,7 @@ WrappedListComponent.propTypes = {
 WrappedListComponent.defaultProps = {
   items: null
 };
-PropTypes.checkPropTypes(
-  WrappedSingleListItem.propTypes,
-  WrappedListComponent.propTypes,
-  WrappedListComponent.defaultProps
-);
+
 const App = memo(WrappedListComponent);
 
 export default App;
